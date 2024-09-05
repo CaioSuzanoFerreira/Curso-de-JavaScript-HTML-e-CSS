@@ -12,8 +12,8 @@ rl.question('Qual o seu primeiro número? ', (n1)=>
         
         rl.question('Qual o seu segundo número? ', (n2) => 
             {
-                num1 = parseFloat(n1);
-                num2 = parseFloat(n2);
+                let num1 = parseFloat(n1);
+                let num2 = parseFloat(n2);
 
                 if (num1 > num2)
                     {
