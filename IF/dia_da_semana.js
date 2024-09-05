@@ -25,15 +25,15 @@ rl.question('Qual é o dia da semana? ', (diaSemana)=>
             {
                 console.log("Hoje é quarta");
             }
-             else if (diaSemana == 5)
+        else if (diaSemana == 5)
             {
                 console.log("Hoje é quinta");
             }
-             else if (diaSemana == 6)
+        else if (diaSemana == 6)
             {
                 console.log("Hoje é sexta");
             }
-             else
+        else
             {
                 console.log("Hoje é sábado");
             }
